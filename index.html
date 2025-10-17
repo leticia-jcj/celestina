@@ -65,24 +65,23 @@ body, html {
         onclick="toggleFunction()" title="Toggle Navigation Menu">
         <i class="fa fa-bars"></i>
       </a>
-      <a href="#home" class="w3-bar-item w3-button">INICIO</a>
-      <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class=""></i>SOBRE</a>
-      <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class=""></i> PERSONAGENS</a>
-      <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class=""></i> GALERÍA</a>
+      <a href="#inicio" class="color-link w3-bar-item w3-button">INICIO</a>
+      <a href="#sobre" class="color-link w3-bar-item w3-button w3-hide-small"><i class=""></i>SOBRE</a>
+      <a href="#personagens" class="color-link w3-bar-item w3-button w3-hide-small"><i class=""></i> PERSONAGENS</a>
+      <a href="#galeria" class="color-link w3-bar-item w3-button w3-hide-small"><i class=""></i> GALERÍA</a>
 
     </div>
 
     <!-- Navbar on small screens NÃO MEXE-->
     <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-      <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">SOBRE</a>
-      <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PERSONAGENS</a>
-      <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACTO</a>
-      <a href="#" class="w3-bar-item w3-button">BUSCAR</a>
+      <a href="#sobre" class="w3-bar-item w3-button" onclick="toggleFunction()">SOBRE</a>
+      <a href="#personagens" class="w3-bar-item w3-button" onclick="toggleFunction()">PERSONAGENS</a>
+      <a href="#galeria" class="w3-bar-item w3-button" onclick="toggleFunction()">GALERÍA</a>
     </div>
   </div>
 
   <!-- First Parallax Image with Logo Text -->
-  <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="bgimg-1 w3-display-container w3-opacity-min" id="inicio">
     <div class="w3-display-middle" style="white-space:nowrap;">
       <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"> La <span
           class="titulo">Celestina <br> </span> </span>
@@ -90,9 +89,9 @@ body, html {
   </div>
 
   <!-- Container (About Section) -->
-  <div class="w3-content w3-container w3-padding-64" id="about">
+  <div class="w3-content w3-container w3-padding-64" id="sobre">
     <h3 class="w3-center">SOBRE</h3>
-    <p><strong>La Celestina</strong>, escrita por <strong>Fernando de Rojas</strong> y publicada en
+    <p><strong>La Celestina</strong>, escrita por <a href="https://en.wikipedia.org/wiki/Fernando_de_Rojas"><strong>Fernando de Rojas</strong></a> y publicada en
       <strong>1499</strong>, es una <strong>tragicomedia</strong> que marca el paso de la Edad Media al Renacimiento.
 
       La historia comienza cuando <strong>Calisto</strong>, un joven noble, se enamora perdidamente de
@@ -114,7 +113,7 @@ body, html {
       <strong>humor, erotismo, magia y tragedia</strong>.
     </p>
 
-    <div class="w3-content w3-container w3-padding-64" id="portfolio">
+    <div class="w3-content w3-container w3-padding-64" id="personagens">
       <h3 class="w3-center">PERSONAGENS</h3>
 
       <div class="w3-row">
@@ -244,7 +243,7 @@ body, html {
   </div>
 
   <!-- Container (Contact Section) -->
-  <div class="w3-content w3-container w3-padding-64" id="contact">
+  <div class="w3-content w3-container w3-padding-64" id="galeria">
     <h3 class="w3-center">GALERÍA</h3>
 
     <div class="w3-row-padding w3-center">
@@ -306,7 +305,7 @@ body, html {
 
   <!-- Footer -->
   <footer class="w3-center w3-black w3-padding-64">
-    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Arriba</a>
+    <a href="#inicio" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Arriba</a>
     <div class="w3-xlarge w3-section">
       <i class="fa fa-facebook-official w3-hover-opacity"></i>
       <i class="fa fa-instagram w3-hover-opacity"></i>

@@ -3,8 +3,14 @@
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
   height: 100%;
-  color: #777;
+  color: #131111;
   line-height: 1.8;
+}
+
+.color-link {
+    color: red;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* Create a Parallax Effect */
@@ -28,7 +34,8 @@ body, html {
 .w3-hover-opacity {cursor: pointer;}
 
 .titulo {
-    color: red
+    color: red;
+    font-weight: bold;
 }
 
 .foto-center {
